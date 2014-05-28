@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.root {
+	-fx-font-size: 18pt;
+	-fx-background-color: transparent;
+}
+
+.title {
+	-fx-font-size: 26pt;
+	-fx-text-fill: orange;
+}
+
+.logo {
+	-fx-font-size: 24pt;
+}
+
+.logo-department {
+	-fx-font-size: 12pt;
+	-fx-text-fill: #666666;
+}
