@@ -1,6 +1,8 @@
 package jp.ascendia.sample.application;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
@@ -24,4 +26,10 @@ public class SampleApplication extends Application {
         launch(args);
     }
 
+    
+    @FXML
+    public void handleClose(ActionEvent event) {
+    	System.exit(0);
+
+    }
 }

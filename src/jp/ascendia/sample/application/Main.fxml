@@ -7,13 +7,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" xmlns:fx="http://javafx.com/fxml" fx:controller="jp.ascendia.sample.application.SampleApplication">
   <children>
     <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
       <bottom>
         <HBox alignment="TOP_RIGHT">
           <children>
-            <Button mnemonicParsing="false" text="閉じる" />
+            <Button mnemonicParsing="false" text="閉じる" onAction="#handleClose" />
           </children>
         </HBox>
       </bottom>
