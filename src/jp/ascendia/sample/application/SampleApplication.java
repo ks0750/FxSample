@@ -26,7 +26,7 @@ public class SampleApplication extends Application {
         launch(args);
     }
 
-    
+    //閉じる処理
     @FXML
     public void handleClose(ActionEvent event) {
     	System.exit(0);
