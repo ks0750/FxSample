@@ -1,6 +1,7 @@
 package jp.ascendia.sample.application;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -29,7 +30,7 @@ public class SampleApplication extends Application {
     //閉じる処理
     @FXML
     public void handleClose(ActionEvent event) {
-    	System.exit(0);
+    	Platform.exit();
 
     }
 }
